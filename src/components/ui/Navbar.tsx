@@ -13,10 +13,10 @@ export default function Navbar() {
   }, [scrollY]);
 
   const navLinks = [
-    { name: 'WORK', href: '#work' },
-    { name: 'ABOUT', href: '#about' },
-    { name: 'SERVICES', href: '#services' },
-    { name: 'CONTACT', href: '#contact' },
+    { name: 'KARYA', href: '#work' },
+    { name: 'TENTANG', href: '#about' },
+    { name: 'LAYANAN', href: '#services' },
+    { name: 'KONTAK', href: '#contact' },
   ];
 
   return (
@@ -47,7 +47,7 @@ export default function Navbar() {
       </div>
 
       <a href="#contact" className="font-mono text-[10px] tracking-[0.2em] text-accent border border-accent/20 px-4 py-2 hover:bg-accent hover:text-bg transition-all">
-        HIRE ME
+        HUBUNGI SAYA
       </a>
     </motion.nav>
   );

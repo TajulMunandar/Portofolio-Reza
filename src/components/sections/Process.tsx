@@ -2,10 +2,10 @@ import { motion } from 'motion/react';
 import { fadeUp } from '../../lib/animations';
 
 const steps = [
-  { num: "01", title: "BRIEF", desc: "We discuss your vision, goals, and project requirements to set a solid direction." },
-  { num: "02", title: "SHOOT", desc: "Execution with professional gear, focusing on high-quality cinematic visuals." },
-  { num: "03", title: "EDIT", desc: "Post-production magic: color grading, sound design, and motion graphics." },
-  { num: "04", title: "DELIVER", desc: "Review and final delivery in all required formats, optimized for your platform." }
+  { num: "01", title: "BRIEF", desc: "Kita diskusikan visi, tujuan, dan kebutuhan proyekmu untuk menentukan arah yang tepat." },
+  { num: "02", title: "SHOOT", desc: "Eksekusi dengan perlengkapan profesional, fokus pada visual sinematik berkualitas tinggi." },
+  { num: "03", title: "EDIT", desc: "Keajaiban pasca-produksi: color grading, desain suara, dan grafik gerak." },
+  { num: "04", title: "DELIVER", desc: "Peninjauan dan pengiriman akhir dalam semua format yang diperlukan, siap untuk dipublikasi." }
 ];
 
 export default function Process() {
@@ -14,10 +14,10 @@ export default function Process() {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row items-end justify-between mb-24 gap-8">
            <div>
-             <span className="section-label">How I Work</span>
-             <h2 className="text-5xl md:text-7xl font-heading">The Creative<br /><span className="text-accent display-heading italic">Process.</span></h2>
+             <span className="section-label">Cara Saya Bekerja</span>
+             <h2 className="text-5xl md:text-7xl font-heading">Proses<br /><span className="text-accent display-heading italic">Kreatif.</span></h2>
            </div>
-           <p className="text-muted max-w-sm text-sm">Every project follows a deliberate path to ensure the highest visual standard and emotional resonance.</p>
+           <p className="text-muted max-w-sm text-sm">Setiap proyek mengikuti jalur yang terukur untuk memastikan kualitas visual tertinggi dan resonansi emosional.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 relative">

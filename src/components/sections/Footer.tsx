@@ -5,18 +5,18 @@ export default function Footer() {
           <div className="flex items-center gap-4">
              <span className="font-heading text-2xl tracking-widest">REZA</span>
              <div className="w-[1px] h-6 bg-accent/20" />
-             <p className="font-mono text-[9px] tracking-widest text-muted">© 2025 · ALL RIGHTS RESERVED</p>
+             <p className="font-mono text-[9px] tracking-widest text-muted">© 2025 · HAK CIPTA DILINDUNGI</p>
           </div>
 
           <div className="flex items-center gap-12">
-             <a href="#hero" className="font-mono text-[9px] tracking-widest hover:text-accent transition-colors">TOP</a>
-             <a href="#work" className="font-mono text-[9px] tracking-widest hover:text-accent transition-colors">WORK</a>
-             <a href="#about" className="font-mono text-[9px] tracking-widest hover:text-accent transition-colors">ABOUT</a>
-             <a href="#contact" className="font-mono text-[9px] tracking-widest hover:text-accent transition-colors">CONTACT</a>
+             <a href="#hero" className="font-mono text-[9px] tracking-widest hover:text-accent transition-colors">ATAS</a>
+             <a href="#work" className="font-mono text-[9px] tracking-widest hover:text-accent transition-colors">KARYA</a>
+             <a href="#about" className="font-mono text-[9px] tracking-widest hover:text-accent transition-colors">TENTANG</a>
+             <a href="#contact" className="font-mono text-[9px] tracking-widest hover:text-accent transition-colors">KONTAK</a>
           </div>
 
           <p className="font-mono text-[9px] tracking-widest text-muted/50 hidden lg:block">
-            DESIGNED WITH PURPOSE. BUILT TO IMPRESS.
+            DIBUAT DENGAN TUJUAN. DIBANGUN UNTUK MEMUKAU.
           </p>
        </div>
     </footer>

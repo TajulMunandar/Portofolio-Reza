@@ -20,7 +20,7 @@ export default function Contact() {
             variants={fadeUp}
             className="section-label mx-auto"
           >
-            Let's work together
+            Ayo bekerja sama
           </motion.span>
           
           <motion.h2 
@@ -31,7 +31,7 @@ export default function Contact() {
             variants={fadeUp}
             className="text-6xl md:text-[8vw] font-heading leading-none mb-8"
           >
-             LET'S CREATE<br /><span className="text-accent display-heading italic capitalize">Something Great.</span>
+             AYO BUAT<br /><span className="text-accent display-heading italic capitalize">Sesuatu yang Hebat.</span>
           </motion.h2>
 
           <motion.p 
@@ -42,7 +42,7 @@ export default function Contact() {
             variants={fadeUp}
             className="text-muted text-lg max-w-2xl mx-auto mb-12"
           >
-            I'm currently available for freelance projects, collaborations, and content partnerships. Let's tell your story together.
+            Saya saat ini tersedia untuk proyek freelance, kolaborasi, dan kemitraan konten. Mari ceritakan kisahmu bersama.
           </motion.p>
           
           <motion.div 
@@ -55,12 +55,12 @@ export default function Contact() {
           >
             <MagneticButton className="flex items-center gap-3">
               <MessageCircle size={18} />
-              WHATSAPP ME
+              HUBUNGI WHATSAPP
             </MagneticButton>
             
             <a href="mailto:reza@email.com" className="flex items-center gap-3 border border-white/10 px-8 py-3.5 font-mono text-[11px] tracking-[0.2em] hover:bg-white/5 transition-all">
               <Mail size={16} />
-              EMAIL ME
+              KIRIM EMAIL
             </a>
           </motion.div>
         </div>
@@ -69,7 +69,7 @@ export default function Contact() {
 
         <div className="flex flex-col md:flex-row items-center justify-between gap-8 text-center md:text-left">
            <div>
-             <p className="font-mono text-[10px] text-muted tracking-widest mb-2 uppercase">SOCIALS</p>
+             <p className="font-mono text-[10px] text-muted tracking-widest mb-2 uppercase">SOSIAL MEDIA</p>
              <div className="flex gap-8">
                 <a href="#" className="flex items-center gap-2 text-xs hover:text-accent transition-colors font-mono tracking-widest">
                   <Instagram size={14} /> INSTAGRAM

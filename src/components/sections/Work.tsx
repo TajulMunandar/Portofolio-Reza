@@ -3,21 +3,21 @@ import { useState } from 'react';
 import { cn } from '../../lib/utils';
 import { fadeUp, scaleIn } from '../../lib/animations';
 
-const categories = ["All", "Video", "Photo", "Reels"];
+const categories = ["Semua", "Video", "Foto", "Reels"];
 
 const projects = [
-  { id: 1, title: "Modern Editorial", category: "Photo", img: "https://images.unsplash.com/photo-1536240478700-b869ad10a2eb?w=800&q=80", size: "tall" },
+  { id: 1, title: "Modern Editorial", category: "Foto", img: "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=800&q=80", size: "tall" },
   { id: 2, title: "Cinematic Journey", category: "Video", img: "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=800&q=80", size: "wide" },
   { id: 3, title: "Urban lifestyle", category: "Reels", img: "https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=800&q=80", size: "square" },
-  { id: 4, title: "Golden Hour", category: "Photo", img: "https://images.unsplash.com/photo-1598387993441-a364f854cbb5?w=800&q=80", size: "tall" },
+  { id: 4, title: "Golden Hour", category: "Foto", img: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&q=80", size: "tall" },
   { id: 5, title: "Brand Identity", category: "Video", img: "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800&q=80", size: "square" },
-  { id: 6, title: "Event Aftermovie", category: "Reels", img: "https://images.unsplash.com/photo-1601979031925-424e53b6caaa?w=800&q=80", size: "wide" },
+  { id: 6, title: "Event Aftermovie", category: "Reels", img: "https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?w=800&q=80", size: "wide" },
 ];
 
 export default function Work() {
-  const [filter, setFilter] = useState("All");
+  const [filter, setFilter] = useState("Semua");
 
-  const filteredProjects = filter === "All" 
+  const filteredProjects = filter === "Semua" 
     ? projects 
     : projects.filter(p => p.category === filter);
 
@@ -26,8 +26,8 @@ export default function Work() {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-20 gap-8">
           <div>
-            <span className="section-label">Selected Work</span>
-            <h2 className="text-5xl md:text-7xl font-heading uppercase">Capturing <br /><span className="text-accent display-heading italic capitalize">Vision.</span></h2>
+            <span className="section-label">Karya Pilihan</span>
+            <h2 className="text-5xl md:text-7xl font-heading uppercase">Menangkap <br /><span className="text-accent display-heading italic capitalize">Visi.</span></h2>
           </div>
 
           <div className="flex items-center gap-4 border-b border-white/10 pb-2 overflow-x-auto no-scrollbar">
@@ -36,7 +36,7 @@ export default function Work() {
                 key={cat}
                 onClick={() => setFilter(cat)}
                 className={cn(
-                  "font-mono text-[10px] tracking-[0.2em] uppercase px-4 py-1 transition-all",
+                  "font-mono text-[10px] tracking-[0.2em] uppercase px-4 py-1 transition-all whitespace-nowrap",
                   filter === cat ? "text-accent" : "text-muted hover:text-text"
                 )}
               >

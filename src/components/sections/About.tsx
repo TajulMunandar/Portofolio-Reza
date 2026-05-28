@@ -25,8 +25,8 @@ export default function About() {
           >
             <motion.img 
               style={{ y: imgY }}
-              src="https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=800&q=80" 
-              alt="Reza fhlv"
+              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&q=80" 
+              alt="Profil Reza fhlv"
               className="w-full h-[600px] object-cover grayscale group-hover:grayscale-0 transition-all duration-1000 scale-110"
             />
           </motion.div>
@@ -34,7 +34,7 @@ export default function About() {
           <div className="absolute -top-6 -left-6 w-full h-full border border-accent/30 -z-0 translate-x-4 translate-y-4 group-hover:translate-x-6 group-hover:translate-y-6 transition-transform duration-700" />
           
           <div className="absolute bottom-10 -right-10 bg-accent p-6 z-20 hidden md:block">
-            <p className="font-mono text-[10px] text-bg font-bold tracking-[0.2em]">AVAILABLE FOR PROJECTS</p>
+            <p className="font-mono text-[10px] text-bg font-bold tracking-[0.2em]">TERSEDIA UNTUK PROYEK</p>
           </div>
         </div>
 
@@ -46,7 +46,7 @@ export default function About() {
             variants={fadeUp}
             className="section-label"
           >
-            About Me
+            Tentang Saya
           </motion.span>
           
           <motion.h2 
@@ -57,7 +57,7 @@ export default function About() {
             variants={fadeUp}
             className="text-5xl md:text-6xl font-heading mb-8 leading-tight"
           >
-            A Visual Artist with <br /><span className="text-accent display-heading italic">Cinematic Eye.</span>
+            Seniman Visual dengan <br /><span className="text-accent display-heading italic">Mata Sinematik.</span>
           </motion.h2>
 
           <motion.p 
@@ -68,7 +68,7 @@ export default function About() {
             variants={fadeUp}
             className="text-muted text-lg mb-12 leading-relaxed"
           >
-            Based in Indonesia, I specialize in turning raw footage and moments into compelling stories. With years of experience in color grading and high-end editing, I help brands and individuals create an aesthetic that truly resonates.
+            Berbasis di Indonesia, saya spesialis dalam mengubah rekaman mentah dan momen biasa menjadi cerita yang mendalam. Dengan pengalaman bertahun-tahun dalam color grading dan editing tingkat tinggi, saya membantu brand dan individu menciptakan estetika yang benar-benar berkesan.
           </motion.p>
 
           <motion.div 
@@ -80,7 +80,7 @@ export default function About() {
              className="grid grid-cols-2 gap-8 mb-12"
           >
             <div>
-              <h4 className="font-mono text-accent text-xs tracking-widest mb-4">SKILLS</h4>
+              <h4 className="font-mono text-accent text-xs tracking-widest mb-4">KEAHLIAN</h4>
               <ul className="text-muted text-sm space-y-2">
                 <li>• Cinematic Editing</li>
                 <li>• Color Grading</li>

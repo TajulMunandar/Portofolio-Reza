@@ -14,20 +14,20 @@ const services: Service[] = [
   {
     icon: Video,
     title: "VIDEO EDITING",
-    desc: "Cinematic cuts, professional color grading, sound design, and motion VFX for high-impact content.",
-    price: "From Rp 250k"
+    desc: "Potongan sinematik, color grading profesional, desain suara, dan motion VFX untuk konten berdampak tinggi.",
+    price: "Mulai Rp 250rb"
   },
   {
     icon: Camera,
-    title: "PHOTOGRAPHY",
-    desc: "Editorial, lifestyle, event, and product photography with a unique aesthetic and professional retouching.",
-    price: "From Rp 500k"
+    title: "FOTOGRAFI",
+    desc: "Fotografi editorial, lifestyle, event, dan produk dengan estetika unik dan pengeditan profesional.",
+    price: "Mulai Rp 500rb"
   },
   {
     icon: Sparkles,
-    title: "FULL PACKAGE",
-    desc: "A complete visual solution: we handle the shooting, editing, and final delivery ready for any platform.",
-    price: "From Rp 1.2M",
+    title: "PAKET LENGKAP",
+    desc: "Solusi visual lengkap: kami menangani pengambilan gambar, pengeditan, dan pengiriman akhir siap pakai.",
+    price: "Mulai Rp 1.2jt",
     popular: true
   }
 ];
@@ -37,8 +37,8 @@ export default function Services() {
     <section id="services" className="py-32 px-6 md:px-12 bg-bg">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-24">
-          <span className="section-label mx-auto">What I Offer</span>
-          <h2 className="text-5xl md:text-7xl font-heading mb-6 uppercase">Elevate your <br /><span className="text-accent display-heading italic capitalize">Stories.</span></h2>
+          <span className="section-label mx-auto">Layanan Saya</span>
+          <h2 className="text-5xl md:text-7xl font-heading mb-6 uppercase">Tingkatkan <br /><span className="text-accent display-heading italic capitalize">Ceritamu.</span></h2>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

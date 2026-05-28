@@ -48,7 +48,7 @@ export default function Hero() {
           variants={fadeIn}
           className="section-label"
         >
-          Visual Storyteller · Since 2020
+          Visual Storyteller · Sejak 2020
         </motion.span>
 
         <h1 className="text-[12vw] md:text-[8vw] font-heading leading-[0.9] flex flex-col mb-8 overflow-hidden">
@@ -58,7 +58,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.1, ease: [0.33, 1, 0.68, 1] }}
             viewport={{ once: true }}
           >
-            TURNING
+            MENGUBAH
           </motion.span>
           <motion.span 
             initial={{ y: "100%" }}
@@ -66,7 +66,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.2, ease: [0.33, 1, 0.68, 1] }}
             viewport={{ once: true }}
           >
-            MOMENTS
+            MOMEN
           </motion.span>
           <motion.span 
             initial={{ y: "100%" }}
@@ -75,7 +75,7 @@ export default function Hero() {
             viewport={{ once: true }}
             className="text-accent display-heading"
           >
-            INTO ART.
+            JADI KARYA.
           </motion.span>
         </h1>
 
@@ -87,7 +87,7 @@ export default function Hero() {
           variants={fadeIn}
           className="text-muted text-lg md:text-xl max-w-xl mb-12"
         >
-          Premium video editing & photography that transforms every frame into a cinematic experience.
+          Video editing & fotografi premium yang mengubah setiap frame menjadi pengalaman sinematik yang tak terlupakan.
         </motion.p>
 
         <motion.div 
@@ -99,10 +99,13 @@ export default function Hero() {
           className="flex flex-col sm:flex-row items-center gap-8"
         >
           <MagneticButton onClick={() => document.getElementById('work')?.scrollIntoView({ behavior: 'smooth' })}>
-            View My Work
+            Lihat Karya Saya
           </MagneticButton>
-          <button className="font-mono text-[11px] tracking-[0.2em] group flex items-center gap-2 hover:text-accent transition-colors">
-            GET IN TOUCH 
+          <button 
+            onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+            className="font-mono text-[11px] tracking-[0.2em] group flex items-center gap-2 hover:text-accent transition-colors"
+          >
+            HUBUNGI SAYA 
             <span className="group-hover:translate-x-1 transition-transform">↗</span>
           </button>
         </motion.div>
@@ -118,11 +121,11 @@ export default function Hero() {
         <div className="flex flex-col gap-4 items-end text-right">
           <div>
             <p className="font-heading text-2xl">50+</p>
-            <p className="font-mono text-[9px] text-muted tracking-widest">PROJECTS</p>
+            <p className="font-mono text-[9px] text-muted tracking-widest">PROYEK</p>
           </div>
           <div>
             <p className="font-heading text-2xl">04</p>
-            <p className="font-mono text-[9px] text-muted tracking-widest">YEARS EXP</p>
+            <p className="font-mono text-[9px] text-muted tracking-widest">TAHUN PENGALAMAN</p>
           </div>
         </div>
       </motion.div>

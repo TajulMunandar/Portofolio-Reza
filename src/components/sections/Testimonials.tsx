@@ -34,8 +34,8 @@ export default function Testimonials() {
     <section className="py-32 px-6 md:px-12 bg-surface overflow-hidden relative">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16">
-          <span className="section-label mx-auto">Client Love</span>
-          <h2 className="text-4xl md:text-6xl font-heading mb-6 tracking-wide">WHAT THEY SAY</h2>
+          <span className="section-label mx-auto">Kata Mereka</span>
+          <h2 className="text-4xl md:text-6xl font-heading mb-6 tracking-wide">TESTIMONI</h2>
         </div>
 
         <div className="relative min-h-[300px]">
