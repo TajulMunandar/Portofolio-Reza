@@ -18,6 +18,7 @@ import Stats from './components/sections/Stats';
 import Testimonials from './components/sections/Testimonials';
 import Contact from './components/sections/Contact';
 import Footer from './components/sections/Footer';
+import FloatingWhatsApp from './components/ui/FloatingWhatsApp';
 
 export default function App() {
   const [loading, setLoading] = useState(true);
@@ -39,6 +40,7 @@ export default function App() {
 
       <CustomCursor />
       <div className="grain-overlay" />
+      <FloatingWhatsApp />
 
       {/* Scroll Progress Bar */}
       <motion.div 

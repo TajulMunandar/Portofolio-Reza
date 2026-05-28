@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { useMousePosition } from '../../hooks/useMousePosition';
 
 export default function CustomCursor() {
-  const { x, y } = useMousePosition();
+  const { x, y, hasMoved } = useMousePosition();
   const [isHovering, setIsHovering] = useState(false);
   const [isClicking, setIsClicking] = useState(false);
   const [cursorText, setCursorText] = useState('');
@@ -20,7 +20,7 @@ export default function CustomCursor() {
       
       setIsHovering(!!isLink);
       if (isImage) {
-        setCursorText('VIEW');
+        setCursorText('LIHAT');
         setIsHovering(true);
       } else {
         setCursorText('');
@@ -42,7 +42,11 @@ export default function CustomCursor() {
   }, []);
 
   return (
-    <>
+    <motion.div 
+      initial={{ opacity: 0 }}
+      animate={{ opacity: hasMoved ? 1 : 0 }}
+      className="pointer-events-none"
+    >
       <motion.div
         className="fixed top-0 left-0 w-2.5 h-2.5 bg-accent rounded-full z-[10001] pointer-events-none"
         style={{ x, y, translateX: '-50%', translateY: '-50%' }}
@@ -67,6 +71,6 @@ export default function CustomCursor() {
           <span className="text-[10px] font-mono font-bold text-bg tracking-widest">{cursorText}</span>
         )}
       </motion.div>
-    </>
+    </motion.div>
   );
 }

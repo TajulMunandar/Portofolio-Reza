@@ -53,7 +53,10 @@ export default function Contact() {
             variants={fadeUp}
             className="flex flex-wrap justify-center gap-6"
           >
-            <MagneticButton className="flex items-center gap-3">
+            <MagneticButton 
+              onClick={() => window.open('https://wa.me/62895601568492', '_blank')}
+              className="flex items-center gap-3"
+            >
               <MessageCircle size={18} />
               HUBUNGI WHATSAPP
             </MagneticButton>
@@ -71,7 +74,7 @@ export default function Contact() {
            <div>
              <p className="font-mono text-[10px] text-muted tracking-widest mb-2 uppercase">SOSIAL MEDIA</p>
              <div className="flex gap-8">
-                <a href="#" className="flex items-center gap-2 text-xs hover:text-accent transition-colors font-mono tracking-widest">
+                <a href="https://www.instagram.com/reza.fhlv_/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-xs hover:text-accent transition-colors font-mono tracking-widest">
                   <Instagram size={14} /> INSTAGRAM
                 </a>
                 <a href="#" className="flex items-center gap-2 text-xs hover:text-accent transition-colors font-mono tracking-widest">
@@ -81,7 +84,7 @@ export default function Contact() {
            </div>
            
            <p className="font-mono text-[10px] text-muted tracking-widest uppercase">
-             JAKARTA, INDONESIA · UTC+7
+             ACEH, INDONESIA · UTC+7
            </p>
         </div>
       </div>
