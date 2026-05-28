@@ -30,7 +30,7 @@ export default function Navbar() {
       )}
     >
       <a href="#hero" className="font-heading text-2xl tracking-wider select-none">
-        R<span className="text-accent">·</span>REZA
+        REZA<span className="text-accent">·</span>FHLV
       </a>
 
       <div className="hidden md:flex items-center gap-10">
